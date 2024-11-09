@@ -22,7 +22,7 @@ public:
         DocGhe();  // Đọc thông tin ghế từ file
     }
 
-    // Hàm kiểm tra tính hợp lệ của số ghế (số ghế phải có định dạng N1, N2, N3, ...)
+    // Hàm kiểm tra tính hợp lệ của số ghế 
     bool KiemTraSoGhe(const string& soGhe) const {
     // Kiểm tra nếu chuỗi trống hoặc có ký tự không phải số
     if (soGhe.empty() || !isdigit(soGhe[0])) {
