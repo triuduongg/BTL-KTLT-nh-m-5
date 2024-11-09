@@ -155,7 +155,7 @@ public:
 
     // Liệt kê các ghế còn trống (ngoài số ghế đã đặt)
     bool timThayGheConTrong = false;
-    cout << "Danh sach ghe con trong: ";
+    cout << "Danh sach ghe trong: ";
     for (const string& ghe : tatCaGhe) {
         // Nếu ghế chưa được đặt (không có trong danh sách ghế đã đặt)
         if (find(ghesDaDat.begin(), ghesDaDat.end(), ghe) == ghesDaDat.end()) {
@@ -163,11 +163,11 @@ public:
             timThayGheConTrong = true;
         }
     }
-    cout << endl;
     // Nếu không tìm thấy ghế còn trống
     if (!timThayGheConTrong) {
-        cout << "Khong con ghe con trong cho gio chieu nay." << endl;
+        cout << "Da dat het.";
     }
+    cout << endl;
 }
 
     // Đọc file Ve.txt
