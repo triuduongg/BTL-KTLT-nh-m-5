@@ -222,16 +222,10 @@ void ThemVe(const string& gioChieuSoGhe, const string& tenDichVu, const string& 
         return;
     }
 
-    string tenDichVuFinal = tenDichVu;
-    // Nếu tên dịch vụ không được nhập (dựng chuỗi trống), bỏ qua kiểm tra
-    if (tenDichVuFinal.empty()) {
-        tenDichVuFinal = "";  // Nếu không nhập tên dịch vụ, để trống
-    } else {
-        if (!KiemTraTenDichVu(tenDichVuFinal)) {
+    if (!KiemTraTenDichVu(tenDichVu)) {
             cout << "Ten dich vu khong hop le!" << endl << endl;
             return;
         }
-    }
 
     // Kiểm tra vé đã tồn tại trong hệ thống chưa
     for (const auto& ve : DanhSachVe) {
@@ -241,7 +235,7 @@ void ThemVe(const string& gioChieuSoGhe, const string& tenDichVu, const string& 
         }
     }
 
-    VeChiTiet veMoi = {gioChieuSoGhe, tenDichVuFinal, soDT};
+    VeChiTiet veMoi = {gioChieuSoGhe, tenDichVu, soDT};
     DanhSachVe.push_back(veMoi);  // Thêm vé mới vào danh sách
     LuuVe();  // Lưu lại thông tin vào file
     cout << "Da them ve thanh cong!" << endl << endl;
@@ -259,6 +253,11 @@ void SuaVe(const string& gioChieuSoGheCu, const string& gioChieuSoGheMoi, const 
     if (!KiemTraSoDT(soDTMoi)) {
         cout << "So dien thoai khach hang moi khong hop le!" << endl << endl;
         return;
+    }
+    
+    if (!KiemTraTenDichVu(tenDichVuMoi)) {
+            cout << "Ten dich vu moi khong hop le!" << endl << endl;
+            return;
     }
 
     // Kiểm tra xem vé với giờ chiếu + số ghế mới có tồn tại trong danh sách không
@@ -280,21 +279,12 @@ void SuaVe(const string& gioChieuSoGheCu, const string& gioChieuSoGheMoi, const 
         return;
     }
 
-    string tenDichVuFinal = tenDichVuMoi;
-    // Nếu tên dịch vụ không được nhập (dựng chuỗi trống), bỏ qua kiểm tra
-    if (tenDichVuFinal.empty()) {
-        tenDichVuFinal = "";  // Nếu không nhập tên dịch vụ, để trống
-    } else {
-        if (!KiemTraTenDichVu(tenDichVuFinal)) {
-            cout << "Ten dich vu moi khong hop le!" << endl << endl;
-            return;
-        }
-    }
+
 
     for (auto& ve : DanhSachVe) {
         if (ve.GioChieuSoGhe == gioChieuSoGheCu) {
             ve.GioChieuSoGhe = gioChieuSoGheMoi;
-            ve.TenDichVu = tenDichVuFinal;  // Cập nhật tên dịch vụ
+            ve.TenDichVu = tenDichVuMoi;  // Cập nhật tên dịch vụ
             ve.SoDT = soDTMoi;
             LuuVe();  // Lưu lại thông tin vào file
             cout << "Da sua ve thanh cong!" << endl << endl;
