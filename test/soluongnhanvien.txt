@@ -1,0 +1,10 @@
+1. Nguyen Van A - CCCD: 123456789012 - Thang lam viec: 11/2024 - Luong thang: 12,000,000 VND
+2. Tran Thi B - CCCD: 234567890123 - Thang lam viec: 10/2024 - Luong thang: 10,500,000 VND
+3. Le Van C - CCCD: 345678901234 - Thang lam viec: 10/2024 - Luong thang: 9,800,000 VND
+4. Pham Thi D - CCCD: 456789012345 - Thang lam viec: 11/2024 - Luong thang: 11,200,000 VND
+5. Hoang Van E - CCCD: 567890123456 - Thang lam viec: 09/2024 - Luong thang: 13,000,000 VND
+6. Phan Thi F - CCCD: 678901234567 - Thang lam viec: 08/2024 - Luong thang: 9,500,000 VND
+7. Dinh Van G - CCCD: 789012345678 - Thang lam viec: 08/2024 - Luong thang: 10,800,000 VND
+8. Nguyen Thi H - CCCD: 890123456789 - Thang lam viec: 11/2024 - Luong thang: 11,500,000 VND
+9. Tran Van I - CCCD: 901234567890 - Thang lam viec: 09/2024 - Luong thang: 12,300,000 VND
+10. Le Thi J - CCCD: 012345678901 - Thang lam viec: 08/2024 - Luong thang: 10,200,000 VND

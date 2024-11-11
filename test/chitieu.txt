@@ -1,0 +1,30 @@
+Chi tieu thang 10/2024:
+  Tong luong nhan vien: 20.300.000 VND
+  Tien thue mat bang: 30.000.000 VND
+  Tong chi tieu: 50.300.000 VND
+-----------------------------------
+Chi tieu thang 11/2024:
+  Tong luong nhan vien: 55.000.000 VND
+  Tien thue mat bang: 30.000.000 VND
+  Tong chi tieu: 85.000.000 VND
+-----------------------------------
+Chi tieu thang 09/2025:
+  Tong luong nhan vien: 0 VND
+  Tien thue mat bang: 30.000.000 VND
+  Tong chi tieu: 30.000.000 VND
+-----------------------------------
+Chi tieu thang 09/2024:
+  Tong luong nhan vien: 0 VND
+  Tien thue mat bang: 30.000.000 VND
+  Tong chi tieu: 30.000.000 VND
+-----------------------------------
+Chi tieu thang 10/2024:
+  Tong luong nhan vien: 20.300.000 VND
+  Tien thue mat bang: 30.000.000 VND
+  Tong chi tieu: 50.300.000 VND
+-----------------------------------
+Chi tieu thang 09/2024:
+  Tong luong nhan vien: 25.300.000 VND
+  Tien thue mat bang: 30.000.000 VND
+  Tong chi tieu: 55.300.000 VND
+-----------------------------------

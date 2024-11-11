@@ -1,0 +1,45 @@
+Doanh thu thang 10/2024:
+  Doanh thu ve: 4.000.000 VND
+  Doanh thu do an: 10.000.000 VND
+  Tong doanh thu: 14.000.000 VND
+-----------------------------------
+Doanh thu thang 11/2024:
+  Doanh thu ve: 5.000.000 VND
+  Doanh thu do an: 120.000.000 VND
+  Tong doanh thu: 125.000.000 VND
+-----------------------------------
+Doanh thu thang 10/2024:
+  Doanh thu ve: 4.000.000 VND
+  Doanh thu do an: 10.000.000 VND
+  Tong doanh thu: 14.000.000 VND
+-----------------------------------
+Doanh thu thang 09/2024:
+  Doanh thu ve: 4.000.000 VND
+  Doanh thu do an: 10.000.000 VND
+  Tong doanh thu: 14.000.000 VND
+-----------------------------------
+Doanh thu thang 08/2024:
+  Doanh thu ve: 4.000.000 VND
+  Doanh thu do an: 10.000.000 VND
+  Tong doanh thu: 14.000.000 VND
+-----------------------------------
+Doanh thu thang 01/2025:
+  Doanh thu ve: 4.000.000 VND
+  Doanh thu do an: 10.000.000 VND
+  Tong doanh thu: 14.000.000 VND
+-----------------------------------
+Doanh thu thang 11/2024:
+  Doanh thu ve: 5.000.000 VND
+  Doanh thu do an: 120.000.000 VND
+  Tong doanh thu: 125.000.000 VND
+-----------------------------------
+Doanh thu thang 09/2022:
+  Doanh thu ve: 0 VND
+  Doanh thu do an: 0 VND
+  Tong doanh thu: 0 VND
+-----------------------------------
+Doanh thu thang 09/2024:
+  Doanh thu ve: 0 VND
+  Doanh thu do an: 0 VND
+  Tong doanh thu: 0 VND
+-----------------------------------
